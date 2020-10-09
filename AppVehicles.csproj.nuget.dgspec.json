@@ -1,0 +1,208 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Charity\\AppVehicles\\AppVehicles\\AppVehicles.csproj": {}
+  },
+  "projects": {
+    "C:\\Charity\\AppVehicles\\AppVehicles\\AppVehicles.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Charity\\AppVehicles\\AppVehicles\\AppVehicles.csproj",
+        "projectName": "AppVehicles",
+        "projectPath": "C:\\Charity\\AppVehicles\\AppVehicles\\AppVehicles.csproj",
+        "packagesPath": "C:\\Users\\saoul\\.nuget\\packages\\",
+        "outputPath": "C:\\Charity\\AppVehicles\\AppVehicles\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\saoul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {
+              "C:\\Charity\\AppVehicles\\BusinessEntities\\BusinessEntities.csproj": {
+                "projectPath": "C:\\Charity\\AppVehicles\\BusinessEntities\\BusinessEntities.csproj"
+              },
+              "C:\\Charity\\AppVehicles\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Charity\\AppVehicles\\DAL\\DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.All": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Charity\\AppVehicles\\BusinessEntities\\BusinessEntities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Charity\\AppVehicles\\BusinessEntities\\BusinessEntities.csproj",
+        "projectName": "BusinessEntities",
+        "projectPath": "C:\\Charity\\AppVehicles\\BusinessEntities\\BusinessEntities.csproj",
+        "packagesPath": "C:\\Users\\saoul\\.nuget\\packages\\",
+        "outputPath": "C:\\Charity\\AppVehicles\\BusinessEntities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\saoul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Charity\\AppVehicles\\DAL\\DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Charity\\AppVehicles\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "C:\\Charity\\AppVehicles\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\saoul\\.nuget\\packages\\",
+        "outputPath": "C:\\Charity\\AppVehicles\\DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\saoul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {
+              "C:\\Charity\\AppVehicles\\BusinessEntities\\BusinessEntities.csproj": {
+                "projectPath": "C:\\Charity\\AppVehicles\\BusinessEntities\\BusinessEntities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+﻿@{
+    ViewData["Title"] = "Vehicle";
+}
+@model IEnumerable<VehicleOwnerViewModel>
+
+<br />
+<center>
+    <h2>
+        Apartment Vehicle Registration
+
+    </h2>
+</center>
+<hr />
+<div class="panel panel-default">
+    
+    <div class="panel-body">
+        <div class="btn-group">
+            <a id="addVehicle"  asp-action="AddVehicle"  class="btn btn-primary">
+                <i class="glyphicon glyphicon-plus"></i>  Register Vehicle
+            </a>
+        </div>
+        
+        <table class="table table-bordered table-striped table-condensed">
+            <thead>
+                <tr>
+                    <th>Owner's Name</th>
+                    <th>Make</th>
+                    <th>Model</th>
+                    <th>Color</th>
+                    <th>Registration</th>
+                    <th>Date Registered</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.OwnersName)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Make)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Model)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Color)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Registration)</td>
+                    <td>@Html.DisplayFor(modelItem => item.DateRegistered)</td>
+                    
+                    <td>
+                        <a id="editCutomerModal" disabled="disabled" data-toggle="modal" asp-action="EditVehicle" asp-route-id="@item.VehicleId" 
+                           class="btn btn-info">
+                            <i class="glyphicon glyphicon-pencil"></i>  Edit
+                        </a>
+                        <a id="deleteCustomerModal" data-toggle="modal" disabled="disabled" asp-action="DeleteVehicle" asp-route-id="@item.VehicleId" 
+                           class="btn btn-danger">
+                            <i class="glyphicon glyphicon-trash"></i>  Delete
+                        </a>
+                    </td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
